@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title> Hoja de vida </title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    </head>
+    <style type="text/css"> 
+        table, td, th{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th,td{
+            padding: 10px;
+        }
+        td{
+            text-align: center;
+        }
+        table{
+            width: 100%;
+            background-color: rgb(186, 248, 245);
+        }
+        .contenedor{
+            background-color: rgb(103, 103, 168);
+            height: 15vh;
+            margin: 5%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .foto{
+            background-color: #68B0AB;
+            align-items: center;
+            margin: 5%;
+            display: inline block;
+            position:absolute;
+            flex-direction: column;
+            margin-top: -60px;
+        }
+        .desarrollo{
+            flex-direction: column;
+            margin:30%;
+            margin-top: -260px;
+            
+        }
+        body{
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+    <body bgcolor= #eaeded>
+        <div class ="contenedor">
+            <h1>Hoja de vida</h1><br>            
+        </div>
+        <div class="foto">
+            <img src="imagenes/gustavo.jpeg" width="200" height="200">
+            <p><strong>Luis Gustavo Cedeño Joza</strong></p>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="desarrollo">
+            <h2>Datos personales</h2>
+            <fieldset>
+                <legend><strong>Estudios realizados</strong></legend>
+                <ul>
+                    <li><strong>Educación primaria: </strong>
+                    <p>Unidad educativa "San José".</p>
+                    </li>
+                    <li><strong>Educación primaria: </strong>: 
+                        <p>Unidad educativa "San José".</p>
+                    </li>
+                    <li><strong>Educación superior: </strong>
+                        <p>Cursando en la facultad de ciencias informáticas de la Universidad Laica "Eloy Alfaro" de Manabí</p>
+                    </li>
+                </ul>
+                </fieldset>
+                <br><br>
+            <fieldset>
+                <legend><strong>Experiencia laboral o prácticas pre-profesionales</strong></legend>
+                <ul>
+                    <li>Composición musical</li>
+                    <li>Producción musical</li>
+                </ul>
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend><strong>Capacitaciones</strong></legend>
+                <ol>
+                    <li>Capacitacion para Qbase5 en Udemi</li>
+                    <li>Curso de mastering en Udemi</li>
+                </ol>
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend><strong>Referencias personales</strong></legend>
+                <table style="width: 50%">
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Profesión</th> 
+                        <th>Número telefónico</th>
+                        <th>correo electrónico</th>
+                    </tr>
+                    <tr>
+                        <td>Emilia Fasce</td>
+                        <td>Estudiante</td>
+                        <td>0999513965</td>
+                        <td>mariaemiliafasce17@hotmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Jaime Cedeño</td>
+                        <td>Lic. terapia ocupacional</td>
+                        <td>099495730</td>
+                        <td>jaime.cede@hotmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Barbara Cedeño</td>
+                        <td>ing. Comercio</td>
+                        <td>0992454324</td>
+                        <td>barbaracede@hotmail.com</td>
+                    </tr>
+            </table>
+        </fieldset>
+        </div>
+    </body>
+</html>
